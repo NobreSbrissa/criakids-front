@@ -1,9 +1,42 @@
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f3f3f3;
+  font-family: sans-serif;
+  background: #5e17eb;
+  color: white;
+  margin: 0;
+  padding: 20px;
   text-align: center;
-  padding: 40px;
 }
-h1 {
-  color: #6c5ce7;
+.perfil {
+  margin-bottom: 40px;
+}
+.foto-autor {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.livros {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.livro {
+  background: white;
+  color: #222;
+  border-radius: 12px;
+  padding: 10px;
+  width: 160px;
+}
+.livro img {
+  width: 100%;
+  border-radius: 8px;
+}
+.titulo {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.preco {
+  color: #5e17eb;
+  font-weight: bold;
 }

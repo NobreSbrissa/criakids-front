@@ -1,1 +1,1 @@
-console.log('Criakids site carregado com sucesso!');
+console.log("Criakids perfil carregado!");
