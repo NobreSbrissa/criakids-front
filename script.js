@@ -1,1 +1,0 @@
-console.log('Criakids site carregado com sucesso!');
