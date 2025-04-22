@@ -1,42 +1,45 @@
-
 body {
-  font-family: sans-serif;
-  background: #5e17eb;
-  color: white;
   margin: 0;
-  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background: #6C1ED8;
+  color: white;
   text-align: center;
 }
-.perfil {
-  margin-bottom: 40px;
+.profile {
+  padding: 2rem;
 }
-.foto-autor {
-  width: 120px;
-  height: 120px;
+.author-photo {
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
 }
-.livros {
+.library {
   display: flex;
-  justify-content: center;
-  gap: 20px;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 2rem auto;
+  max-width: 1200px;
 }
-.livro {
+.book {
   background: white;
-  color: #222;
-  border-radius: 12px;
-  padding: 10px;
-  width: 160px;
+  color: #333;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 200px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
-.livro img {
+.book img {
   width: 100%;
   border-radius: 8px;
 }
-.titulo {
-  font-weight: bold;
-  margin-top: 10px;
+.book h2 {
+  font-size: 1rem;
+  margin: 0.5rem 0;
 }
-.preco {
-  color: #5e17eb;
+.book p {
+  color: #6C1ED8;
   font-weight: bold;
 }
